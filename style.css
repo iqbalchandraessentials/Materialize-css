@@ -1,0 +1,78 @@
+nav .brand-logo {
+	font-family: BLACKLISTED;
+}
+
+.slider .slides .caption {
+	text-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+
+.slider {
+	height: 87vh !important;
+	margin-bottom: 30px;
+}	
+
+.slides {
+	height: 87vh !important;
+}	
+
+.slides li {
+	/*height: 87vh !important;*/
+	background-image: url(img/jaguar.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;	
+}
+.slides li:nth-child(2) {
+	/*height: 87vh !important;*/
+	background-image: url(img/bmw.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;	
+}
+.slides li:nth-child(3) {
+	/*height: 87vh !important;*/
+	background-image: url(img/mini.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;	
+}
+
+.parallax-container { height: 20%; }
+
+
+
+
+.client {
+	text-shadow: 1px 1px 3px rgba(0,0,0,.5);
+	margin: 90px 0 90px 0;
+}
+.parallax img { fill: grayscale(1);
+				opacity: 0.8 !important;
+ }
+.client .row img {
+	margin-top: 30px;
+	filter: drop-shadow(3px 1px 3px rgba(0,0,0,.8));
+} 
+
+.client .container {
+	margin-top: 50px;
+}
+
+.card-panel span { font-size: 30px; }
+
+.service { margin: 90px 0 90px 0; }
+
+
+
+
+.gallery { padding: 20px 0 20px 0; margin: 90px 0 90px 0;  }
+
+.contact { margin: 90px 0 90px 0; }
+.contact span { font-size: 30px; }
+
+footer {
+	padding: 10px 0;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
